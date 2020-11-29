@@ -20,6 +20,10 @@
         "source": "F:\\2020_Engine\\v1.3\\alarm_proto\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "F:\\2020_Engine\\v1.3\\alarm_proto\\build\\intermediates\\res\\merged\\debug\\layout_list_view_alarm.xml.flat",
+        "source": "F:\\2020_Engine\\v1.3\\alarm_proto\\src\\main\\res\\layout\\list_view_alarm.xml"
+    },
+    {
         "merged": "F:\\2020_Engine\\v1.3\\alarm_proto\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "F:\\2020_Engine\\v1.3\\alarm_proto\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },

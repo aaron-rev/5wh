@@ -655,15 +655,11 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id alarm1_favorite
-id alarm1_name
-id alarm1_onf
-id alarm2_favorite
-id alarm2_name
-id alarm2_onf
 id alarm_add
 id alarm_button
+id alarm_name
 id alarm_release
+id alarm_switch
 id alarmcon_back
 id alarmcon_title
 id alarmmng_back
@@ -730,6 +726,7 @@ id listMode
 id listView
 id list_item
 id list_view1
+id listview2
 id loaderLayout
 id ltem_location_tv_address
 id ltem_location_tv_placename
@@ -876,6 +873,7 @@ layout activity_route_config
 layout activity_route_select
 layout activity_user_setting
 layout item_location
+layout list_view_alarm
 layout list_view_item
 layout notification_action
 layout notification_action_tombstone

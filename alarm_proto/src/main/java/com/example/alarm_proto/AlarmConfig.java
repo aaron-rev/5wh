@@ -32,39 +32,19 @@ public class AlarmConfig extends AppCompatActivity {
             case R.id.alarmcon_back: this.onBackPressed(); //뒤로가기
             break;
             case R.id.config_finish: //알람 설정 완료 버튼
-            //리시버에 string값 넘겨주기
-
+            //AlarmManagement로 결과값 전송
                 String time = et.getText().toString();
-
-                if ( et.getText().toString().length() == 0 ) {
-
+                Intent intent = new Intent(AlarmConfig.this, AlarmManagement.class);
+                if(et.getText().toString().length() == 0){
                     Toast myToast = Toast.makeText(this.getApplicationContext(),"input time first", Toast.LENGTH_SHORT);
                     myToast.show();
-                    break;
-
-                } else {
-                    String[] arr= time.split(":");
-                    int hour, minute;
-                    hour = Integer.parseInt(arr[0]);
-                    minute = Integer.parseInt(arr[1]);
-                    calendar.setTimeInMillis(System.currentTimeMillis());
-                    calendar.set(Calendar.HOUR_OF_DAY, hour);
-                    calendar.set(Calendar.MINUTE,minute);
-                    calendar.set(Calendar.SECOND, 0);
-
-                    Toast.makeText(this,"Alarm 예정 " + hour + "시 " + minute + "분", Toast.LENGTH_SHORT).show();
-                    //이미 지나간 시간 지정이면 다음날로 지정
-                    if (calendar.before(Calendar.getInstance())) {
-                        calendar.add(Calendar.DATE, 1);
-                    }
+                }
+                else{
+                    intent.putExtra("alarm_clock",time);
+                    setResult(0,intent);
+                    finish();
                 }
 
-                // reveiver에 string 값 넘겨주기
-                al_intent.putExtra("state","alarm on");
-
-                pendingIntent = PendingIntent.getBroadcast(this,0,al_intent, PendingIntent.FLAG_UPDATE_CURRENT);
-                //알람 세팅
-                alarm_manager.set(AlarmManager.RTC_WAKEUP,calendar.getTimeInMillis(),pendingIntent);
                 break;
         }
     }

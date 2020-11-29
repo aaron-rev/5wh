@@ -44,83 +44,84 @@
 24-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:17:9-54
 25        android:supportsRtl="true"
 25-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:18:9-35
-26        android:theme="@style/AppTheme"
-26-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:21:9-40
-27        android:usesCleartextTraffic="true" >
-27-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:19:9-44
-28        <meta-data
-28-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:22:9-24:64
-29            android:name="com.kakao.sdk.AppKey"
-29-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:23:13-48
-30            android:value="cd858a4418d7273af074aa26ca8f5b7a" />
-30-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:24:13-61
-31
-32        <activity android:name="com.example.alarm_proto.AlarmClosed" />
-32-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:25:9-49
-32-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:25:19-46
-33
-34        <receiver android:name="com.example.alarm_proto.Alarm_Receiver" />
-34-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:26:9-52
-34-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:26:19-49
-35
-36        <activity android:name="com.example.alarm_proto.DestinationSearch" />
-36-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:27:9-55
-36-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:27:19-52
-37        <activity android:name="com.example.alarm_proto.AddDestination" />
-37-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:28:9-52
-37-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:28:19-49
-38        <activity android:name="com.example.alarm_proto.RouteSelect" />
-38-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:29:9-49
-38-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:29:19-46
-39        <activity android:name="com.example.alarm_proto.RouteConfig" />
-39-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:30:9-49
-39-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:30:19-46
-40        <activity android:name="com.example.alarm_proto.AlarmManagement" />
-40-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:31:9-53
-40-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:31:19-50
-41        <activity android:name="com.example.alarm_proto.AlarmConfig" />
-41-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:32:9-49
-41-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:32:19-46
-42        <activity android:name="com.example.alarm_proto.UserSetting" />
-42-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:33:9-49
-42-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:33:19-46
-43        <activity android:name="com.example.alarm_proto.DestinationFinish" />
-43-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:34:9-55
-43-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:34:19-52
-44        <activity android:name="com.example.alarm_proto.MainActivity" >
-44-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:35:9-40:20
-44-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:35:19-47
-45            <intent-filter>
-45-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:36:13-39:29
-46                <action android:name="android.intent.action.MAIN" />
-46-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:37:17-69
-46-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:37:25-66
-47
-48                <category android:name="android.intent.category.LAUNCHER" />
-48-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:38:17-77
-48-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:38:27-74
-49            </intent-filter>
-50        </activity>
-51
-52        <service
-52-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:42:9-44:38
-53            android:name="com.example.alarm_proto.RingtonePlayingService"
-53-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:43:13-51
-54            android:enabled="true" />
-54-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:44:13-35
-55
-56        <meta-data
-56-->[com.android.support:appcompat-v7:26.1.0] C:\Users\RBmin\.gradle\caches\transforms-2\files-2.1\13b1d2c16aaec09767fc520178d89365\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
-57            android:name="android.support.VERSION"
-57-->[com.android.support:appcompat-v7:26.1.0] C:\Users\RBmin\.gradle\caches\transforms-2\files-2.1\13b1d2c16aaec09767fc520178d89365\appcompat-v7-26.1.0\AndroidManifest.xml:27:13-51
-58            android:value="26.1.0" />
-58-->[com.android.support:appcompat-v7:26.1.0] C:\Users\RBmin\.gradle\caches\transforms-2\files-2.1\13b1d2c16aaec09767fc520178d89365\appcompat-v7-26.1.0\AndroidManifest.xml:28:13-35
-59        <meta-data
-59-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\RBmin\.gradle\caches\transforms-2\files-2.1\21cf4f1d4d840538ca8b92e631e77d8d\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
-60            android:name="android.arch.lifecycle.VERSION"
-60-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\RBmin\.gradle\caches\transforms-2\files-2.1\21cf4f1d4d840538ca8b92e631e77d8d\runtime-1.0.0\AndroidManifest.xml:26:13-58
-61            android:value="27.0.0-SNAPSHOT" />
-61-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\RBmin\.gradle\caches\transforms-2\files-2.1\21cf4f1d4d840538ca8b92e631e77d8d\runtime-1.0.0\AndroidManifest.xml:27:13-44
-62    </application>
-63
-64</manifest>
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme"
+27-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:21:9-40
+28        android:usesCleartextTraffic="true" >
+28-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:19:9-44
+29        <meta-data
+29-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:22:9-24:64
+30            android:name="com.kakao.sdk.AppKey"
+30-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:23:13-48
+31            android:value="cd858a4418d7273af074aa26ca8f5b7a" />
+31-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:24:13-61
+32
+33        <activity android:name="com.example.alarm_proto.AlarmClosed" />
+33-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:25:9-49
+33-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:25:19-46
+34
+35        <receiver android:name="com.example.alarm_proto.Alarm_Receiver" />
+35-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:26:9-52
+35-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:26:19-49
+36
+37        <activity android:name="com.example.alarm_proto.DestinationSearch" />
+37-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:27:9-55
+37-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:27:19-52
+38        <activity android:name="com.example.alarm_proto.AddDestination" />
+38-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:28:9-52
+38-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:28:19-49
+39        <activity android:name="com.example.alarm_proto.RouteSelect" />
+39-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:29:9-49
+39-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:29:19-46
+40        <activity android:name="com.example.alarm_proto.RouteConfig" />
+40-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:30:9-49
+40-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:30:19-46
+41        <activity android:name="com.example.alarm_proto.AlarmManagement" />
+41-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:31:9-53
+41-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:31:19-50
+42        <activity android:name="com.example.alarm_proto.AlarmConfig" />
+42-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:32:9-49
+42-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:32:19-46
+43        <activity android:name="com.example.alarm_proto.UserSetting" />
+43-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:33:9-49
+43-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:33:19-46
+44        <activity android:name="com.example.alarm_proto.DestinationFinish" />
+44-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:34:9-55
+44-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:34:19-52
+45        <activity android:name="com.example.alarm_proto.MainActivity" >
+45-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:35:9-40:20
+45-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:35:19-47
+46            <intent-filter>
+46-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:36:13-39:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:37:17-69
+47-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:37:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:38:17-77
+49-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:38:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <service
+53-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:42:9-44:38
+54            android:name="com.example.alarm_proto.RingtonePlayingService"
+54-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:43:13-51
+55            android:enabled="true" />
+55-->F:\2020_Engine\v1.3\alarm_proto\src\main\AndroidManifest.xml:44:13-35
+56
+57        <meta-data
+57-->[com.android.support:appcompat-v7:26.1.0] C:\Users\RBmin\.gradle\caches\transforms-2\files-2.1\13b1d2c16aaec09767fc520178d89365\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
+58            android:name="android.support.VERSION"
+58-->[com.android.support:appcompat-v7:26.1.0] C:\Users\RBmin\.gradle\caches\transforms-2\files-2.1\13b1d2c16aaec09767fc520178d89365\appcompat-v7-26.1.0\AndroidManifest.xml:27:13-51
+59            android:value="26.1.0" />
+59-->[com.android.support:appcompat-v7:26.1.0] C:\Users\RBmin\.gradle\caches\transforms-2\files-2.1\13b1d2c16aaec09767fc520178d89365\appcompat-v7-26.1.0\AndroidManifest.xml:28:13-35
+60        <meta-data
+60-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\RBmin\.gradle\caches\transforms-2\files-2.1\21cf4f1d4d840538ca8b92e631e77d8d\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+61            android:name="android.arch.lifecycle.VERSION"
+61-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\RBmin\.gradle\caches\transforms-2\files-2.1\21cf4f1d4d840538ca8b92e631e77d8d\runtime-1.0.0\AndroidManifest.xml:26:13-58
+62            android:value="27.0.0-SNAPSHOT" />
+62-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\RBmin\.gradle\caches\transforms-2\files-2.1\21cf4f1d4d840538ca8b92e631e77d8d\runtime-1.0.0\AndroidManifest.xml:27:13-44
+63    </application>
+64
+65</manifest>

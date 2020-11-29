@@ -71,21 +71,44 @@
             android:id="@+id/moving_speed_text"
             android:layout_width="120dp"
             android:layout_height="54dp"
-            android:text="이동 속도  : "
+            android:text="이동 속도"
             android:textSize="25sp"
             android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center">
 
-        <EditText
-            android:id="@+id/moving_speed_edit"
-            android:layout_width="150dp"
-            android:layout_height="54dp"
-            android:gravity="center|center_horizontal" />
+        <RadioGroup
+            android:id="@+id/RadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center">
 
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="54dp"
-            android:layout_height="54dp"
-            app:srcCompat="@android:drawable/arrow_down_float" />
+            <RadioButton
+                android:id="@+id/moving_speed_slow"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="SLOW"
+                android:layout_gravity="center"/>
+
+            <RadioButton
+                android:id="@+id/moving_speed_normal"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="NORMAL" />
+
+            <RadioButton
+                android:id="@+id/moving_speed_fast"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="FAST" />
+        </RadioGroup>
+zz
     </LinearLayout>
 
     <LinearLayout
